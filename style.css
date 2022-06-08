@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html { 
+    background: url(BACKGRAUND-INDEX.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+
+.cabeca{
+    margin: 30px;
+}
+
+.btn-top {
+    width: 100px;
+    height: 30px;
+    border: none;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.btn-top:hover {
+    border-top: solid 2px rgba(255, 255, 255, 0.534);
+    border-bottom: solid 2px rgba(255, 255, 255, 0.534);
+}
+
+.menu-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    gap: 30px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo1{
+    margin-top: 100px;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 100px;
+}
+
+.titulo-principal {
+    margin-top: 150px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: white;
+    font-size: 30px;
+
+}
+
+.paragrafo{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.btn {
+    
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background: #f0f0f015;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    transition: 1s;
+    border-top: solid 3px rgba(68, 155, 255, 0.534) ;
+    border-bottom: solid 3px rgba(68, 155, 255, 0.534) ;
+    
+}
+
+.icon {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 40px;
+    margin-right: 70px;
+    margin-top: 100px;
+}
+
+.icons{
+   color: white;
+   width: 30px;
+   height: 30px;
+}
+
+.icons:hover {
+   color: rgba(68, 155, 255, 0.534) ;
+     
+}
+
+.iconss{
+    color: white;
+    width: 30px;
+    height: 30px;
+ }
+ 
+ .iconss:hover {
+    color: #C13584 ;
+      
+ }
